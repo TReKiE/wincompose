@@ -247,7 +247,6 @@ namespace WinCompose
             {
                 Visibility = Settings.DisableIcon.Value ? Visibility.Collapsed : Visibility.Visible;
                 Icon = GetCurrentIcon();
-                ToolTipText = GetCurrentToolTip();
             }
         }
 
